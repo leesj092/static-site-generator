@@ -6,7 +6,6 @@ class TestLeafNode(unittest.TestCase):
     def test_to_html_with_tag_and_props(self):
         # Test rendering with tag and props
         node = LeafNode("a", "Click me!", {"href": "https://www.google.com"})
-        print(node)
         self.assertEqual(node.to_html(), '<a href="https://www.google.com">Click me!</a>')
 
     def test_to_html_with_tag_no_props(self):
