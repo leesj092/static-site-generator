@@ -1,9 +1,8 @@
 from textnode import *
-from leafnode import LeafNode
+from markdown_parser import split_nodes_delimiter
 
 def main():
-    textNode = TextNode('This is a text node', TextType.TEXT, 'https://www.boot.dev')
-    print('in main')
+    node = TextNode("This is text with a `code block` word", TextType.TEXT)
 
 if __name__ == '__main__':
     main()
