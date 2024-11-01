@@ -35,4 +35,8 @@ root/
 ```
 
 ## Usage
-Run `main.sh`
+```
+git clone https://github.com/leesj092/static-site-generator.git
+cd static-site-generator
+./main.sh
+```
